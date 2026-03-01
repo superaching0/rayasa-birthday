@@ -50,6 +50,7 @@ body {
 
 /* Card */
 .card {
+  font-size: 15px;
   background: white;
   max-width: 650px;
   width: 100%;
@@ -71,11 +72,68 @@ h1, h2 {
 
 /* Text */
 p {
-  line-height: 1.8;
-  font-size: 11px;
-  margin-bottom: 35px;
+  font-size: 8px;
+  line-height: 1.85;
   text-align: justify;
   text-justify: inter-word;
+  margin-bottom: 22px;
+  color: #555;
+  text-indent: 0px;
+}
+
+/* Buttons */
+button {
+  font-family: 'Poppins', serif;
+  background: #ff9ebb;
+  color: white;
+  border: none;
+  margin-top: 16px;
+  padding: 14px 36px;
+  border-radius: 999px;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(255, 158, 187, 0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(255, 158, 187, 0.55);
+}
+
+/* Card */
+.card1 {
+  font-size: 15px;
+  background: white;
+  max-width: 650px;
+  width: 100%;
+  padding: 50px 45px;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  box-shadow: 0 25px 60px rgba(255, 158, 187, 0.25);
+  animation: softFade 1s ease;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: 'Poppins', serif;
+  margin-bottom: 20px;
+}
+
+/* Text */
+p {
+  font-size: 8px;
+  line-height: 1.85;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 22px;
+  color: #555;
+  text-indent: 0px;
 }
 
 /* Buttons */
@@ -175,8 +233,38 @@ button:hover {
 }
 
 .baloon-3 {
-  bottom: 60%;
+  bottom: 70%;
   right: 29%;
+  animation-delay: 2s;
+}
+
+.baloon-4 {
+  bottom: 60%;
+  right: 10%;
+  animation-delay: 2s;
+}
+
+.baloon-5 {
+  bottom: 10%;
+  right: 100%;
+  animation-delay: 2s;
+}
+
+.baloon-6 {
+  bottom: 20%;
+  right: 40%;
+  animation-delay: 2s;
+}
+
+.baloon-7 {
+  bottom: 10%;
+  right: -50%;
+  animation-delay: 2s;
+}
+
+.baloon-8 {
+  bottom: 60%;
+  right: 80%;
   animation-delay: 2s;
 }
 /* Polaroid Cards */
